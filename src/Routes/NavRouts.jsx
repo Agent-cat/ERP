@@ -14,6 +14,7 @@ import HostelManagement from '../Components/HostelManagement'
 import Hallticket from '../Components/Hallticket'
 import InfrastructureRelated from '../Components/InfrastructureRelated'
 import Library from '../Components/Liberary'
+
 const NavRouts = () => {
   return (
     <Routes >
@@ -32,6 +33,8 @@ const NavRouts = () => {
       <Route path="/Hallticket" element={<Hallticket/>}></Route>
       <Route path="/Infrastructure-Related" element={<InfrastructureRelated/>}></Route>
       <Route path="/Library" element={<Library/>}></Route>
+    
+      
       
 
     </Routes>

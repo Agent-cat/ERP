@@ -65,7 +65,7 @@ function App() {
                     `${isActive ? " Active  nav   border-b-[1px] border-white " : "SidebarNavlink nav  border-b-[1px] border-t-[1px] border-white"} `
                   }
                 >
-                  <div className="ml-8">
+                  <div className="ml-4">
                     <Home />
                   </div>
                   <div className="  ml-3 ">
@@ -82,8 +82,8 @@ function App() {
                       }`
                     }
                   >
-                    <div className="ml-8">{item.icon}</div>
-                    <div className="  ml-5 ">
+                    <div className="ml-4">{item.icon}</div>
+                    <div className="  ml-3 ">
                       <p className="">{item.lable}</p>
                     </div>
                   </NavLink>
