@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose
   .connect(
-    "mongodb+srv://admin:vishnu%402005@cluster0.cnfu0ri.mongodb.net/Erp-Database"
+    ""
   )
   .then(() => {
     console.log("Database Connected");
